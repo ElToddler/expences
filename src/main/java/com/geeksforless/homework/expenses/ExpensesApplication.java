@@ -1,13 +1,13 @@
-package com.geeksforless.homework.expences;
+package com.geeksforless.homework.expenses;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ExpencesApplication {
+public class ExpensesApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ExpencesApplication.class, args);
+        SpringApplication.run(ExpensesApplication.class, args);
     }
 
 }

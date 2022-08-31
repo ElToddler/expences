@@ -1,6 +1,6 @@
 package service;
 
-import com.geeksforless.homework.expences.Expense;
+import com.geeksforless.homework.expenses.Expense;
 import com.geeksforless.homework.repository.ExpenseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

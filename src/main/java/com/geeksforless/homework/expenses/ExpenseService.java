@@ -1,4 +1,4 @@
-package com.geeksforless.homework.expences;
+package com.geeksforless.homework.expenses;
 
 import java.util.List;
 

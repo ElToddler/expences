@@ -1,7 +1,7 @@
 package com.geeksforless.homework.controller;
 
-import com.geeksforless.homework.expences.Expense;
-import com.geeksforless.homework.expences.ExpenseService;
+import com.geeksforless.homework.expenses.Expense;
+import com.geeksforless.homework.expenses.ExpenseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,6 +21,7 @@ public class MasterController {
         mav.addObject("message", "List of expenses");
 
         List<Expense> expenses = expenseService.findAll();
+        System.out.println(expenses);
         mav.addObject("expenses", expenses);
         return mav;
     }
