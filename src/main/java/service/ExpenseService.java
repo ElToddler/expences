@@ -1,6 +1,6 @@
 package service;
 
-import com.geeksforless.homework.expences.Expense;
+import com.geeksforless.homework.expenses.Expense;
 
 import java.util.List;
 

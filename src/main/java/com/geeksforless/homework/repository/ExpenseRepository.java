@@ -1,5 +1,5 @@
 package com.geeksforless.homework.repository;
-import com.geeksforless.homework.expences.Expense;
+import com.geeksforless.homework.expenses.Expense;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 

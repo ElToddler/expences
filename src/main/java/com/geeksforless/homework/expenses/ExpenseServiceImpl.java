@@ -1,4 +1,4 @@
-package com.geeksforless.homework.expences;
+package com.geeksforless.homework.expenses;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
